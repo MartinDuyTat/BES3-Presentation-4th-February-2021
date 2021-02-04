@@ -97,6 +97,65 @@
   \end{figure}
 \end{frame}
 
+\section{Separation into categories}
+\begin{frame}{Separation into categories}
+  \begin{itemize}
+    \item{Compared MC truth on energy, momentum and particle ID to reconstruction to sort events into categories}
+    \item{Matched four-momentum by minimizing the squared deviation}
+    \item{Categories:}
+    \begin{itemize}
+      \item{\textcolor{red}{$K^+K^-\pi^+\pi^-$ signal}}
+      \item{\textcolor{blue}{$D\to K_S^0K^+K^-$ peaking background}}
+      \item{\textcolor{green}{Combinatorial background}}
+      \item{Other backgrounds}
+    \end{itemize}
+    \item{Kalman kinematic fitting, constrain $D$ mass and daugther track origins}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Separation into categories}
+  \begin{figure}
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{MBC_Composition.png}
+      \caption{$m_{BC}$, beam constrained mass}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{DeltaE_Composition.png}
+      \caption{$\Delta E$, missing energy}
+    \end{subfigure}
+    \caption{Signal and background categories}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Kalman fit}
+  \begin{figure}
+    \centering
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{MBC_Composition_Kalman.png}
+      \caption{$m_{BC}$, beam constrained mass}
+    \end{subfigure}%
+    \begin{subfigure}{0.5\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{DeltaE_Composition_Kalman.png}
+      \caption{$\Delta E$, missing energy}
+    \end{subfigure}
+    \caption{Kalman kinematic fitting}
+  \end{figure}
+\end{frame}
+
+\section{Peaking background veto}
+\begin{frame}{$K_S^0$ veto}
+  \begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Mpipi_Composition.png}
+    \caption{$\pi^+\pi^-$ invariant mass spectrum}
+  \end{figure}
+\end{frame}
+
 \begin{frame}{Next steps}
   \begin{itemize}
     \item{Double tags (which tag modes should I use?)}
